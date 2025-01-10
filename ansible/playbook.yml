@@ -1,0 +1,8 @@
+- name: Setup OpenVPN
+  hosts: openvpn
+  become: true
+
+  tasks:
+    - name: Setup OpenVPN
+      include_role:
+        name: openvpn

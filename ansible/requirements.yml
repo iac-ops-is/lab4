@@ -1,0 +1,5 @@
+roles:
+  - src: https://github.com/iac-ops-is/openvpn.git
+    name: openvpn
+    version: master
+    scm: git
